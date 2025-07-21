@@ -1,0 +1,173 @@
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hyphens]{url}
+\usepackage[colorlinks=true, urlcolor=black, linkcolor=black]{hyperref}
+\usepackage{fontawesome5} % For GitHub icon
+
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{center}
+  {\LARGE \textbf{AGASH JP}}\\
+
+  Chennai, India \; \textbar{} \; +91 9789053017 \; \textbar{} \;
+  \href{mailto:agashjagan2004@gmail.com}{\underline{agashjagan2004@gmail.com}} \\
+  \href{https://www.linkedin.com/in/agash-jaganathan-451b1a256/}{\underline{LinkedIn}} \; \textbar{}
+  \href{https://github.com/JusCookin}{\underline{GitHub}} \; \textbar{}
+  \href{https://leetcode.com/agash}{\underline{LeetCode}} \; \textbar{}
+  \href{https://portfolio-ashy-eight-70.vercel.app/}{\underline{Portfolio}}
+\end{center}
+
+%-----------Executive Summary-----------------
+\section{Executive Summary}
+Motivated Computer Science undergraduate with hands-on experience in full-stack development, machine learning, and IoT innovation. Proficient in React, Flask, Python, Java, C++, and skilled in database and cloud-integrated systems. Proven track record of delivering end-to-end tech solutions and contributing to community-driven tech initiatives.
+\vspace{-2pt}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Vellore Institute of Technology}{Chennai, India}
+      {Bachelor of Technology - Computer Science Engineering;  CGPA: 8.33}{2022 - Present}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Operating Systems, Data Structures, Analysis Of Algorithms, Artificial Intelligence, Networking, Databases, NLP}}}
+      \resumeSubheading
+      {The PSBB Millennium School}{Chennai, India}
+      {Class 12 (CBSE); 91.8\%}{2021 - 2022}
+      \resumeSubheading
+      {The PSBB Millennium School}{Chennai, India}
+      {Class 10 (CBSE); 91.2\%}{2019 - 2020}
+  \resumeSubHeadingListEnd	    
+\vspace{-2pt}
+
+\section{Skills Summary}
+\resumeSubHeadingListStart
+  \resumeSubItem{Languages}{~~~~~Python, C, C++, JavaScript, Java, Dart}
+  \resumeSubItem{Tech Stack}{~~~~React.js, Node.js, Express.js, HTML5, CSS3, Flask}
+  \resumeSubItem{Frameworks}{~~Scikit-learn, TensorFlow, Keras, Hugging Face, BART}
+  \resumeSubItem{Databases}{~~~~~MySQL, PostgreSQL, Oracle DB, Firebase, MongoDB}
+  \resumeSubItem{Tools}{~~~~~~~~~~~~VS Code, Git, Figma, Vercel, AWS, Canva}
+  \resumeSubItem{AI/ML}{~~~~~~~~~ML, DL, NLP, LLMs, GenAI}
+  \resumeSubItem{Soft Skills}{~~~~~Problem-solving, Time Management, Communication, Teamwork, Decision Making}
+\resumeSubHeadingListEnd
+
+\vspace{-5pt}
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {Management Team Member}{CodeChef-VITC Chapter}
+  {Team Member}{September 2024 – Present}
+\resumeItemListStart
+  \resumeItem{Event Coordination}
+    {Assisted in organizing and coordinating CodeChef Cook-Off, a competitive flagship programming event for the chapter.}
+  \resumeItem{Event Management}
+    {Managed event logistics, participant communications, and ensured smooth execution, contributing to its success.}
+\resumeItemListEnd
+
+\resumeSubheading
+  {Competitive Programmer}{Newton's Coding Club, VIT Chennai}
+  {Club Member}{September 2024 – March 2025}
+\resumeItemListStart
+  \resumeItem{Problem Design}
+    {Contributed to the club's learning ecosystem by designing original Data Structures and Algorithms (DSA) problems tailored to strengthen members' skills.}
+  \resumeItem{Mentorship}
+    {Facilitated weekly coding sessions by reviewing member-submitted solutions, offering feedback, and guiding peers to improve problem-solving techniques.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\vspace{-5pt}
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeSubItem{HemoAI – Anemia Risk Prediction System}
+{Developed responsive web application predicting anemia risk from blood parameters (MCH, MCV, MCHC) with 90\%+ accuracy using machine learning algorithms. Implemented data preprocessing, model training, and real-time inference. Tech: Flask, Python, Scikit-learn, HTML, CSS, Machine Learning, Render\\
+\faGithub~\href{https://github.com/JusCookin/HemoAI}{\underline{GitHub Repository}}}
+\vspace{2pt}
+\resumeSubItem{IoT-Based Smart Dumbbell}{Designed IoT-enabled fitness monitoring system with real-time exercise tracking, automated rep counting, and biometric monitoring (heart rate/SpO₂). Integrated embedded sensors with display interface for user feedback. Tech: ESP32, MPU6050, MAX30100, Arduino IDE, Embedded C\\
+\faGithub~\href{https://github.com/JusCookin/IoT-Based-Smart-Dumbell}{\underline{GitHub Repository}}}
+\vspace{2pt}
+\resumeSubItem{IoT-Based Automated Rain-Responsive Clothesline}{Built intelligent automation system using ESP32 microcontroller for weather-responsive cloth protection. Implemented sensor integration, servo control, and cloud data logging with web dashboard for remote monitoring. Tech: ESP32, Servo Motors, Rain Sensor, DHT11, Google Sheets API\\
+\faGithub~\href{https://github.com/JusCookin/IoT-Based-Automated-Rain-Responsive-Clothesline}{\underline{GitHub Repository}}}
+\vspace{2pt}
+\resumeSubItem{Brain Tumor Detection using Deep Learning}{Developed CNN-based medical imaging classification system for MRI scan analysis. Implemented deep learning model achieving 90\%+ accuracy in multi-class tumor detection (glioma, meningioma, pituitary, normal). Tech: TensorFlow, Keras, FastAPI, Python, Computer Vision}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+
+\section{Certifications}
+\resumeSubHeadingListStart
+\resumeSubItem{Oracle Database Design And Programming with SQL}{Oracle Academy certification covering database fundamentals and SQL programming. (2024) \href{https://drive.google.com/file/d/1YfW9d_pYAyF3RT0W7gQLNJl4bS2JllE1/view?usp=sharing}{\underline{(Certificate)}}}
+\vspace{2pt}
+\resumeSubItem{Artificial Intelligence using Google TensorFlow}{Google Developers certification with hands-on machine learning experience using TensorFlow. (2024) \href{https://drive.google.com/file/d/1sZB1E2ebCJzceL3Nt5oHN3k5Fzc4sUXF/view?usp=sharing}{\underline{(Certificate)}}}
+\vspace{2pt}
+\resumeSubItem{Introduction To Generative AI}{Coursera certification covering fundamentals of generative artificial intelligence technologies. (2024) \href{https://drive.google.com/file/d/1MuiPSeWWfEdywAhrKDjijeDhyDbbqgJO/view?usp=sharing}{\underline{(Certificate)}}}
+\resumeSubHeadingListEnd
+
+\end{document}
